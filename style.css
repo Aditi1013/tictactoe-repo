@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #98bbf0, #e9e0f8);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: #333;
+}
+
+input, select {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #3759c9;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #638de7;
+}
+
+.hidden {
+  display: none;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.cell {
+  aspect-ratio: 1 / 1;
+  background-color: #b9deff;
+  border-radius: 15px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cell:hover {
+  background-color: #80a7ee;
+}
+
+#message {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+#roundInfo, #turnInfo, #scoreBoard {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #555;
+}
