@@ -22,7 +22,7 @@ This is a visually attractive, customizable Tic-Tac-Toe game made with HTML, CSS
 2. Make sure the following files are in the same directory:
    - `index.html`
    - `style.css`
-   - `script.js` (optional if all JS is inline)
+   - `script.js` 
 3. Open `index.html` in any modern web browser.
 
 
