@@ -2,7 +2,6 @@
 
 This is a visually attractive, customizable Tic-Tac-Toe game made with HTML, CSS, and JavaScript. Built as part of an internship project, it includes player setup, symbol customization, audio feedback, multiple rounds, and a beautiful winning animation.
 
----
 
 ## 🧩 Features
 
@@ -16,7 +15,6 @@ This is a visually attractive, customizable Tic-Tac-Toe game made with HTML, CSS
 -  Responsive UI for all screen sizes
 - Winning row gets highlighted and a line appears
 
----
 
 ## How to Run
 
@@ -32,7 +30,7 @@ This is a visually attractive, customizable Tic-Tac-Toe game made with HTML, CSS
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 - Audio API for sound effects
 
 
@@ -43,18 +41,15 @@ You can:
 - Replace background music by modifying the `<audio>` tag in `index.html`
 - Adjust styles (board, win-line, animations) in the `<style>` section or `style.css`
 
----
 
 ## File Structure
 tic-tac-toe-game:
 │
-├── index.html # Main HTML page
-├── style.css # CSS for layout and design
-├── script.js # Optional separate JS file
-└── README.md # Project documentation
+├── index.html 
+├── style.css 
+├── script.js 
+└── README.md 
 
-
----
 
 ## Created By
 
